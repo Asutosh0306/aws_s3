@@ -1,2 +1,13 @@
 Following are the s3 commands:
 
+Configure aws in CLI:
+aws configure
+
+Test connectivity with AWS:
+aws sts get-caller-identity
+
+List buckets:
+aws s3 ls
+
+Content inside the bucket:
+aws s3 ls s3://dev-proj-1-jenkins-remote-state-bucket-123456
