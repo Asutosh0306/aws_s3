@@ -1,13 +1,17 @@
 Following are the s3 commands:
 
 Configure aws in CLI:
-aws configure
+> aws configure
 
 Test connectivity with AWS:
-aws sts get-caller-identity
+> aws sts get-caller-identity
 
 List buckets:
-aws s3 ls
+> aws s3 ls
 
 Content inside the bucket:
-aws s3 ls s3://dev-proj-1-jenkins-remote-state-bucket-123456
+> aws s3 ls s3://asutosh-01052025-test1
+
+Move: s3://asutosh-01052025-test1/Screenshot1.png to s3://asutosh-01052025-test2/Screenshot1.png:
+> aws s3 mv s3://asutosh-01052025-test1/Screenshot1.png s3://asutosh-01052025-test2
+
