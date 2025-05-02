@@ -15,3 +15,7 @@ Content inside the bucket:
 Move: s3://asutosh-01052025-test1/Screenshot1.png to s3://asutosh-01052025-test2/Screenshot1.png:
 > aws s3 mv s3://asutosh-01052025-test1/Screenshot1.png s3://asutosh-01052025-test2
 
+List all the objects even inside the folders:
+> aws s3 ls s3://asutosh-01052025-test2 --recursive
+
+
